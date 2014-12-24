@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Заготовка</title>
+<link rel="stylesheet" type="text/css" href="slidepanel.css">
+<link rel="stylesheet" type="text/css" href="mainstyle.css">
+<script src="canvas.js"></script>
+
+</head>
+<body>
+        <div id="slideout">
+                <div id="slideout_inner">
+                        <form>
+                                <input id="files"  type="file" name="files[]">
+                                <div id="text1">
+                                Введите радиус
+                                </div>
+                                <input type="number" id="number" min="1"></p>
+                                <textarea id="textlist">введите координаты</textarea>
+                                <script src="solver.js"></script>
+                                <script src="file.js"></script>
+                                <input type="button" value="Нарисовать" id="paint" onclick="DrawAndSolve()"></input>
+                                <input type="submit" value="Очистить" id="clear"></input>
+                        </form>
+               </div>
+        </div>
+ <canvas height=300 width=300 style="border:1px solid #ccc;" id='canvas'>Обновите браузер</canvas>
+</body>
+</html>
