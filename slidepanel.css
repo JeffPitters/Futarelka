@@ -1,0 +1,103 @@
+
+		#slideout 
+                 {
+			position: fixed;
+			top: 0px;
+			left: 0;
+			width: 30px;
+                        height: 100%;
+			padding: 12px 0;
+			text-align: center;
+			background: #FF8C00;
+			-webkit-transition-duration: 0.3s;
+			-moz-transition-duration: 0.3s;
+			-o-transition-duration: 0.3s;
+			transition-duration: 0.3s;
+			-webkit-border-radius: 0 5px 5px 0;
+			-moz-border-radius: 0 5px 5px 0;
+			border-radius: 0 5px 5px 0;
+		}
+
+		#slideout_inner 
+                {
+                        position: fixed;
+                        top: 0px;
+                        left: -250px;
+                        background: #FF8C00;
+                        width: 200px;
+                        padding: 25px;
+                        height: 93%;
+                        -webkit-transition-duration: 0.3s;
+                        -moz-transition-duration: 0.3s;
+                        -o-transition-duration: 0.3s;
+                        transition-duration: 0.3s;
+                        text-align: left;
+                        -webkit-border-radius: 0 0 5px 0;
+                        -moz-border-radius: 0 0 5px 0;
+                        border-radius: 0 0 5px 0;
+                 }
+
+                 #number
+                 {
+		   margin-top:    5px;
+                   margin-bottom: 0px;
+		   width:         190px;
+		 }
+                 
+                 #text1
+                 {
+		   margin-top: 10px;
+		   text-align: center;
+		   background:    #F0F0F0;
+		   width:         190px;
+		 }
+                 
+                #textlist 
+                {
+                        width:         190px;
+                        height:        60vh;
+                        margin-bottom: 6px;
+                        resize:        none;
+                        margin-top:    10px;
+                }
+
+                #paint
+                {
+                 width:200px;
+                 
+                 -webkit-border-radius: 5px;
+                 -moz-border-radius: 5px
+                 border-radius: 5px;
+                 -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.2);
+                 -moz-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.2)
+                 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.2);
+
+                }
+                
+                #clear
+                {
+                   width:200px;
+                 margin-top:    30px;
+                 -webkit-border-radius: 5px;
+                 -moz-border-radius: 5px
+                 border-radius: 5px;
+                 -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.2);
+                 -moz-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.2)
+                 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.2);
+                }
+
+                #slideout:hover 
+                {
+                left: 250px;
+                }
+
+                #file-input
+                {
+                width: 250px;
+                }
+
+                #slideout:hover #slideout_inner 
+                {
+                left: 0;
+                }
+ 
